@@ -1,4 +1,4 @@
-# Piano desenvolvido com Javascritp
+# Piano desenvolvido com Javascript
 
 ![Layout do Projeto](https://github.com/henriquenocera/piano-em-javascritp/blob/master/img/layout.jpg?raw=true)
 
