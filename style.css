@@ -1,3 +1,6 @@
+:root {
+	font-family: Poppins;
+}
 .black {
 	box-shadow: 1px 0 #777, 0 2px 0 #777, 0 3px 0 #666, 0 4px 0 #555, 0 5px 0 #444, 0 6px 1px rgba(0, 0, 0, 0.1),
 		0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
@@ -110,8 +113,8 @@ body {
 .intro {
 	color: white;
 	text-align: center;
-	margin-top: 15px;
-	font-size: 24px;
+	margin: 25px 0;
+	font-size: 34px;
 }
 #nowplaying {
 	color: white;
@@ -119,17 +122,55 @@ body {
 	font-size: 48px;
 	height: 40px;
 }
+
+/* Links Externos */
 footer {
+	margin: 0 auto;
+	width: 35vw;
+	margin-top: 60px;
+	display: flex;
+}
+footer a {
+	text-decoration: none;
+	width: 50%;
+}
+.github-button {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	border-radius: 20px;
+	padding: 15px;
+}
+.github-svg {
+	width: 60px;
+	fill: white;
+}
+.github-button:hover .github-svg {
+	fill: #fd951f;
+}
+.github-button p {
 	color: white;
-	height: 90px;
-	padding-bottom: 25px;
+	margin-left: 15px;
+}
+.connect {
+	width: 50%;
+	color: white;
 	display: flex;
 	flex-direction: column;
-	width: 150px;
-	text-align: center;
-	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 }
-.link {
-	color: white;
+.svgs {
+	display: flex;
 	margin-top: 15px;
+}
+.svg {
+	fill: white;
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+}
+.svg:hover {
+	fill: #fd951f;
 }
