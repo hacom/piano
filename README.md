@@ -34,4 +34,4 @@
 <br />
 <br />
 
-##### Projeto desenvolvido para fins educativos.
+##### Projeto desenvolvido para fins educativos sob a [Licença WTFPL](https://github.com/henriquenocera/piano-em-javascritp/blob/master/LICENSE)
